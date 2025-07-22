@@ -1,3 +1,4 @@
+// Testando o Newman para executar uma coleção do Postman;
 
 const newman = require('newman');
 
