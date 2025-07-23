@@ -1,0 +1,1 @@
+[{"uid":"d62496dac6492547","name":"GET /health","time":{"start":1753230406130,"stop":1753230406261,"duration":131},"status":"passed","severity":"normal"},{"uid":"ad52888626c8e917","name":"POST /login - success","time":{"start":1753230406273,"stop":1753230406303,"duration":30},"status":"passed","severity":"normal"}]
