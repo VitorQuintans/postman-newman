@@ -49,22 +49,21 @@ cd postman-newman
 # Instale as dependências
 npm install
 
-Executar API localmente
-
+# Executar API localmente
 npm start
 A API estará disponível em http://localhost:3333.
 
-Executar testes Postman via Newman
-
+# Executar testes Postman via Newman
 npm test
 
-Gerar relatório Allure
-
+# Gerar relatório Allure
 npm run allure:generate
 
-Visualizar relatório Allure
-
+# Visualizar relatório Allure
 npm run allure:open
+
+# Executar script em node newman/tests/newman-runner.js
+Executar Script para rodar os testes junto ao newman e gerar o relatório.
 
 Integração com CI/CD
 O projeto conta com workflow configurado no GitHub Actions (.github/workflows/) que executa automaticamente os testes da collection do Postman com Newman em cada push ou pull request, além de gerar e publicar relatórios Allure.
